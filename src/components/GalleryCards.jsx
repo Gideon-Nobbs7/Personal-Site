@@ -10,20 +10,20 @@ import 'swiper/css/pagination';
 import { EffectCards, Pagination } from "swiper";
 
 // image imports
-import img1 from "../assets/nap.jpg"
-import img2 from "../assets/seattleferris.jpg"
-import img3 from "../assets/dogcode.jpg"
-import img4 from "../assets/leetcode.jpg"
-import img5 from "../assets/hawaiihike.jpg"
-import img6 from "../assets/hike.jpg"
-import img7 from "../assets/bike.jpg"
-import img8 from "../assets/snow.jpg"
-import img9 from "../assets/sunset.jpg"
-import img10 from "../assets/art.jpg"
-import img11 from "../assets/beach.jpg"
-import img12 from "../assets/fireworks.jpg"
-import img13 from "../assets/applepark.jpg"
-import img14 from "../assets/sleep.jpg"
+// import img1 from "../assets/nap.jpg"
+// import img2 from "../assets/seattleferris.jpg"
+// import img3 from "../assets/dogcode.jpg"
+// import img4 from "../assets/leetcode.jpg"
+// import img5 from "../assets/hawaiihike.jpg"
+// import img6 from "../assets/hike.jpg"
+// import img7 from "../assets/bike.jpg"
+// import img8 from "../assets/snow.jpg"
+// import img9 from "../assets/sunset.jpg"
+// import img10 from "../assets/art.jpg"
+// import img11 from "../assets/beach.jpg"
+// import img12 from "../assets/fireworks.jpg"
+// import img13 from "../assets/applepark.jpg"
+// import img14 from "../assets/sleep.jpg"
 
 const GalleryCards = () => {
     return (
