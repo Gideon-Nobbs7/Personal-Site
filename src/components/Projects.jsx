@@ -2,11 +2,11 @@ import "../styles/Projects.css";
 import { Fade } from "react-awesome-reveal";
 import { useState } from 'react';
 import Carousel from "react-bootstrap/Carousel";
-import soleexchange from "../assets/soleexchange1.png"
-import jit from "../assets/jit.jpg"
-import spotifydash from "../assets/spotifydash.png"
+// import soleexchange from "../assets/soleexchange1.png"
+// import jit from "../assets/jit.jpg"
+// import spotifydash from "../assets/spotifydash.png"
 import GitHubIcon from '@mui/icons-material/GitHub';
-import cypherchat from "../assets/cypherchat.png";
+// import cypherchat from "../assets/cypherchat.png";
 
 const Projects = () => {
 
