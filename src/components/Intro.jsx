@@ -6,7 +6,7 @@ const Intro = () => {
     return (
         <Fade triggerOnce direction="up" cascade>
         <div id="intro">
-            hi, <span className="name">phillip</span> here            
+            hi, <span className="name">gideon</span> here            
             <div className="description">
                 <span> I code occasionally. </span>
                 <div className="bio">
@@ -14,7 +14,7 @@ const Intro = () => {
                     <div className="roles">          
                         <Typewriter
                         options={{
-                            strings: ['student.', 'developer.', 'reseller.'],
+                            strings: ['scientist.', 'developer.', 'trader.'],
                             autoStart: true,
                             loop: true,
                         }}

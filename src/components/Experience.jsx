@@ -5,18 +5,19 @@ import { Fade } from "react-awesome-reveal";
 const Experience = () => {
 
     const tech_stack = [
-        "Java",
-        "JavaScript",
-        "Typescript",
         "Python",
-        "Kotlin",
-        "React.js",
-        "Node.js",
+        "Django",
+        "Django Rest Framework",
+        "Flask",
+        "FastAPI",
         "HTML/CSS",
-        "AWS",
+        "Javascript",
+        "Figma",
         "MongoDB",
-        "MySQL",
-        "PostgreSQL"
+        "PostgreSQL",
+        "SQLAlchemy",
+        "Grafana-k6",
+        "Docker",
     ];
 
     return (

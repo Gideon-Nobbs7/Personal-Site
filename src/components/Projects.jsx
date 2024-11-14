@@ -11,30 +11,30 @@ import cypherchat from "../assets/cypherchat.png";
 const Projects = () => {
 
     const projectList = {
-        "Cypher Chat": {
-            description: "Secure client-server chat web app enabling real-time and private communication.",
-            tech: "TypeScript, React.js, Next.js, Node.js, Express.js, AWS",
-            github: "https://github.com/phillip-che/ChatApplication",
-            img: cypherchat
+        "Jiji-Products": {
+            description: "A convenient and user-friendly API to search for the total quantity of products, and name, location, description, state (used or brand new), and shortened link of a product when searched.",
+            tech: "Python, BeautifulSoup, FastAPI, OpenAPI",
+            github: "https://github.com/giiiiid/Jiji-Products",
+            // img: cypherchat
         },
-        "Sole Exchange": {
-            description: "Forum that allows users to post, interact, and search about anything sneaker related.",
-            tech: "JavaScript, React.js, Node.js, Supabase",
-            github: "https://github.com/phillip-che/Sneaker-Forum",
-            img: soleexchange
+        "GiiidAI": {
+            description: "A real time trained model where users interact with",
+            tech: "Python, Django, Pg-Vector, LLama-3, OpenAPI, PostgreSQL",
+            github: "https://github.com/giiiiid/django-to-AI",
+            // img: soleexchange
         },
-        "Just In Time": {
-            description: "Platform that lets users buy soon-to-expire groceries from participating stores at a discount.",
-            tech: "JavaScript, React.js, Node.js, Supabase",
-            github: "https://github.com/phillip-che/Just-In-Time",
-            img: jit
+        "Doctor-Patient Appointment System": {
+            description: "An appointment system that that helps doctors and patients schedule a meeting concerning health related issues or concerns",
+            tech: "Python, FastAPI, SQLAlchemy",
+            github: "https://github.com/giiiiid/Appointment-System",
+            // img: jit
         },
-        "Spotify Data Dashboard": {
-            description: "Dashboard that fetches Spotify's Top 50 songs and visualizes data in text and chart form.",
-            tech: "JavaScript, React.js, Node.js, Spotify API, Recharts API",
-            github: "https://github.com/phillip-che/Data-Dashboard",
-            img: spotifydash
-        }
+        // "Spotify Data Dashboard": {
+        //     description: "Dashboard that fetches Spotify's Top 50 songs and visualizes data in text and chart form.",
+        //     tech: "JavaScript, React.js, Node.js, Spotify API, Recharts API",
+        //     github: "https://github.com/phillip-che/Data-Dashboard",
+        //     img: spotifydash
+        // }
     }
 
     const [index, setIndex] = useState(0);

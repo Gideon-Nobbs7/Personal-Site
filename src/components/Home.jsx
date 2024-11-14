@@ -130,7 +130,10 @@ const Home = () => {
                 </Fade>
                 <Fade direction="right" triggerOnce>
                     <p>your average boba enjoyer from socal trying to navigate through the struggles of becoming a software engineer.</p>
-                    <p>i'm probably playing video games with friends, listening to music, or watching Netflix right now.</p>
+                    <p>
+                        i'm probably playing video games with friends, listening to music, or getting cracked in <a className="effect-shine" href="https://discord.gg/SCQcsyzw" target="_blank" rel="noreferrer">CrackedOverflow</a>,
+                        or analysing my favourite currency pair GBPUSD, or looking for an altcoin to buy.
+                    </p>
                     <p>this is what I'm listening to on Spotify these days. . .</p>
                 </Fade>
                     <SpotifyDisplay 

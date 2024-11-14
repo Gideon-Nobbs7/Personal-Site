@@ -39,34 +39,31 @@ const NavBar = ({setSection}) => {
                     }}
                     >/projects</a>
                 </li>
-                <li className="navbar-item">
+                {/* <li className="navbar-item">
                     <a href="#gallery" className="effect-underline effect-shine"
                     onClick={() => {
                         setSection(4);
                     }}
                     >/gallery</a>
-                </li>
+                </li> */}
                 <li>
                     <div className="socials">
-                        <a className="social-icon effect-shine" href="mailto:phillipche1@gmail.com" target="_blank">
+                        <a className="social-icon effect-shine" href="mailto:gideonfummey1@gmail.com" target="_blank">
                             <MailOutlineRoundedIcon style={{ fontSize: 25 }}></MailOutlineRoundedIcon>
                         </a>
-                        <a className="social-icon effect-shine" href="https://github.com/phillip-che" target="_blank">
+                        <a className="social-icon effect-shine" href="https://github.com/giiiiid" target="_blank">
                             <GitHubIcon style={{ fontSize: 25 }}></GitHubIcon>
                         </a>
-                        <a className="social-icon effect-shine" href="https://www.linkedin.com/in/phillipche" target="_blank">
+                        {/* <a className="social-icon effect-shine" href="https://www.linkedin.com/in/phillipche" target="_blank">
                             <LinkedInIcon style={{ fontSize: 25 }}></LinkedInIcon>
-                        </a>
-                        <a className="social-icon effect-shine" href="https://www.instagram.com/philllip.che" target="_blank">
-                            <InstagramIcon style={{ fontSize: 25 }}></InstagramIcon>
-                        </a>
-                        <a className="social-icon effect-shine" href="https://open.spotify.com/user/1254644359?si=042655b3fdc14a04" target="_blank">
+                        </a> */}
+                        <a className="social-icon effect-shine" href="https://open.spotify.com/user/31e3qvix33cyqbkiimedrqa5irly?si=Wtt885clR727tJKJOgxwfA" target="_blank">
                             <img className="icon" src={SpotifyIcon} />
                         </a>
                     </div>
                 </li>
             </ul>
-        </ div>
+        </div>
         </Fade>
     )
 }

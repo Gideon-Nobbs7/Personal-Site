@@ -39,45 +39,41 @@ const JobList  = () => {
   };
 
   const jobList = {
-        "Amazon": {
-            position: "Software Development Engineer Intern",
+        "VetDataHub": {
+            position: "Contributor",
+            dates: "Oct 2024 - Present",
+            points: [
+                "Worked on a project aimed at enhancing data accessibility with the veterinary field.",
+                "Developed data entry and metadata tagging ensuring that datasets were discoverable and usable by 30%.",
+            ]
+        },
+        "Endangered Species Tracker": {
+            position: "Contributor",
+            dates: "Oct 2024 - Present",
+            points: [
+                "Developed a tool that provides real time information on endangered species by integrating the IUCN Red List API.",
+                "Contributed to the doocumentation and API usage guides to facilitate easier onboarding for new contributors and users of the tool."
+            ]
+        },
+        "EPA": {
+            position: "Designer",
+            dates: "Sep 2024 - Oct 2024",
+            points: [
+                "Coordinated with stakeholders to map out the stage of a document life for automation.",
+                "Implemented a tracking system to guarantee that documents were properly routed and minuted for each sector/deppartment.",
+                "Reduced documents delays by 35%, decreasing inter-departmental communication delays."
+            ]
+        },
+        "Jan-Briddhi": {
+            position: "Backend Developer",
             dates: "May 2023 – Aug 2023",
             points: [
-                "Placed 1st in organizational hackathon by collaborating with team to implement optional frontend components on branded lists in TypeScript to boost internal testing configurability by 20%.",
-                "Refactored code to optimize bulk add-to-cart confirmation pop-up content update logic and loading latency by 60%",
-                "Engineered a scalable feature on Amazon Fresh widget using Java, TypeScript, and internal frontend frameworks to enable shoppers to replace product suggestions on branded lists with up to 3 backup items."
+                "Collaborated with teams across departments to contributed to the overall mission of the Blood Bank Foundation to save lives and improve healthcare outcomes in the community by working across.",
+                "Improved efficiency in blood bank operations, resulting in a significant increase in successful matches and timely deliveries to patients in need by 60%.",
+                "Cooperated with a team to build an API for blood bank foundation to interact with the front end of the blood bank using Django and Django Rest Framework (DRF) and SQLAlchemy. This facilitated seamless communication between donors, recipients, and medical professionals.",
             ],
         },
-        "Solace Notify": {
-            position: "Owner and Chief Technical Officer",
-            dates: "Apr 2019 – Present",
-            points: [
-                "Founded and managed all aspects of an online premium membership Discord-based reselling community.",
-                "Outlined the end-to-end development of in-house projects from design to delivery including iOS applications, Google Chrome Extensions, and websites",
-                "Integrated the Stripe API on to the dashboard to process ~5,000 customer payments and 2,000+ subscriptions.",
-                "Implemented site inventory monitors using Node.js and Discord API to monitor thousands of items on 100+ retailers and send alerts as soon as a specific item is restocked.",
-                "Recruited and delegated workflow of 20 staff members to streamline completion of daily tasks by 75%."
-            ],
-        },
-        "Cal Poly Pomona": [
-            {
-                position: "Computer Science Tutor",
-                dates: "Feb 2023 – Present",
-                points: [
-                    "Provide personalized, one-on-one tutoring to students in programming, advanced algorithms, and data structures.",
-                    "Evaluate assignments and code providing actionable feedback to promote understanding and improvement.",
-                ],
-            },
-            {
-                position: "Undergraduate Research Assistant",
-                dates: "Jul 2022 – Nov 2022",
-                points: [
-                    "Leveraged GPU acceleration with CUDA using NASA supercomputer and OpenCV in C++ to stitch images in real-time captured by drones to form a panorama.",
-                    "Incorporated parallel processing in image stitching algorithm to optimize speed from O(N) to O(logN) time with MPI to bolster efficiency by ~25%.",
-                    "Performed 100+ benchmarks to analyze serial and parallel runtime speeds between CPU and GPU cores.",
-                ],
-            }
-        ]
+        
     }
 
   return (
